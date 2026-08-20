@@ -43,6 +43,7 @@
 
     <button onclick="hallo()">Drück mich!</button>
  <button onclick="tschö()">Drück mich nochmal</button>
+    <button> onclick="back()">drück doch</button>
     <script>
         function hallo() {
             document.body.style.backgroundColor = "red" ; document.getElementById("nachricht").innerHTML =
@@ -53,6 +54,8 @@
             function tschö() {
                 document.body.style.backgroundColor = "lightgreen" ; document.getElementById("nachricht").innerHTML = "kleiner pimmel";
             }
+        function back() { 
+            document.body.style.backgroundColor = "darkblue" ; document.getElementById("nachricht").innerHTML = "Meine erste Website"; }
     </script>
 
 </body>
