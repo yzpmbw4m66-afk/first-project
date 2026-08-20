@@ -45,7 +45,7 @@
 
     <script>
         function hallo() {
-            document.body.style.backgroundColor = "red" ; docoment.getElementById("nachricht").innerHTML =
+            document.body.style.backgroundColor = "red" ; document.getElementById("nachricht").innerHTML =
                 "du pimmel 🎉";
         }
     </script>
