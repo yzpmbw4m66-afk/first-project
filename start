@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Guten Morgen Welt</title>
+    <title>Meine erste Webseite</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Arial;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        button {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>bin neu hier hallo</h1>
-    <p>Das ist mein erstes repository.</p>
+
+    <h1>Willkommen auf meiner Webseite!</h1>
+
+    <p>Ich lerne gerade Programmieren. 🚀</p>
+
+    <button>Drück mich!</button>
+
 </body>
 </html>
