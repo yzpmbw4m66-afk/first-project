@@ -8,6 +8,7 @@
             background-color: lightblue;
             font-family: Arial;
             text-align: center;
+            padding-top: 100px;
         }
 
         h1 {
@@ -21,21 +22,34 @@
         button {
             background-color: darkblue;
             color: white;
-            padding: 10px 20px;
+            padding: 12px 25px;
             border: none;
             border-radius: 8px;
             cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: blue;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>Willkommen auf meiner Webseite!</h1>
+    <h1>Meine erste Webseite 🚀</h1>
 
-    <p>Ich lerne gerade Programmieren. 🚀</p>
+    <p id="du pimmel">Klicke auf den Button!</p>
 
-    <button>Drück mich!</button>
+    <button onclick="hallo()">Drück mich!</button>
+
+    <script>
+        function hallo() {
+            document.getElementById("nachricht").innerHTML =
+                "Du hast den Button gedrückt! 🎉";
+        }
+    </script>
 
 </body>
 </html>
+
