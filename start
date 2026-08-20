@@ -39,14 +39,14 @@
 
     <h1>Meine erste Webseite 🚀</h1>
 
-    <p id="du pimmel">Klicke auf den Button!</p>
+    <p id="nachricht">Klicke auf den Button!</p>
 
     <button onclick="hallo()">Drück mich!</button>
 
     <script>
         function hallo() {
             document.getElementById("nachricht").innerHTML =
-                "Du hast den Button gedrückt! 🎉";
+                "du pimmel 🎉";
         }
     </script>
 
