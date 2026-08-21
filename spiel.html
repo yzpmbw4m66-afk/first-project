@@ -8,8 +8,19 @@
 </head>
     <body>
 
+      <canvas id="canvas" width="720" height="480"></canvas>
+      
+      
       <script>
+
+        let canvas = document.getElementByID('canvas');
+      let ctx = canvas.getContext('2d');
+
+        draw();
+        
         function draw(){
+          ctx.fillstyle ='red';
+          ctx.fillRect(10, 20, 20,20);
           
         }
 
